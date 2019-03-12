@@ -1,4 +1,0 @@
-service mysql start
-mysql -u root --password=vivelabiere
-mysql -u root --password=vivelabiere < /tmp/init.sql
-mysqladmin -u root --password=vivelabiere shutdown
