@@ -1,0 +1,24 @@
+acl company {
+	51.77.141.236;
+	51.77.141.217;
+	51.77.141.187;
+	localhost;
+};
+
+view internal {
+	match-clients { company; };
+    recursion yes;
+    allow-recursion { company; };
+    zone "wt1.ephec-ti.be" {
+        type master;
+        file "/etc/bind/db.local.wt1.ephec-ti.be";
+    };
+};
+
+view external {
+    match-clients { any; };
+    zone "wt1.ephec-ti.be" {
+        type master;
+        file "/etc/bind/db.wt1.ephec-ti.be";
+    };
+};
