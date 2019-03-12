@@ -9,5 +9,5 @@ Administration Système &amp; Réseaux II - Projet - Groupe 1
 # Schéma logique
 ![Diagramme logique](https://i.imgur.com/4Exq3Lo.png)
 
-#Schéma physique
+# Schéma physique
 ![Diagramme physique](https://i.imgur.com/VstlJCj.png)
