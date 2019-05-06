@@ -3,7 +3,7 @@ Se connecter en SSH (en root) sur le VPS mail
 Entrer dans le container mail (nom dans ce projet "mail"):
 docker exec -it mail /bin/bash
 
-Obtenir le hash d'un nouveau mot depasse:
+Obtenir le hash d'un nouveau mot de passe:
 
 doveadm pw -s CRYPT
 (Entrer le mot de passe voulu et copier la réponse en incluant {CRYPT})
