@@ -7,7 +7,7 @@ Administration Système &amp; Réseaux II - Projet - Groupe 1
 * Rémy Vase `vps651885.ovh.net 51.77.141.236`
 
 # Schéma logique
-![Diagramme logique](https://i.imgur.com/4Exq3Lo.png)
+![Diagramme Logique](https://imgur.com/8GmdU8A.png)
 
 # Schéma physique
-![Diagramme physique](https://i.imgur.com/VstlJCj.png)
+![Schéma physique](https://imgur.com/zYG9diJ.png)
